@@ -96,7 +96,12 @@ volumes:
 ```
 
 using `docker compose up -d` started the wordpress images 
-![[Pasted image 20220519090746.png]]
+_________________________________________________________________________________________________________________________________________________________
+root@test20:/var/log# docker ps
+CONTAINER ID   IMAGE              COMMAND                  CREATED          STATUS          PORTS                                           NAMES
+c30897de24ab   wordpress:latest   "docker-entrypoint.s…"   15 minutes ago   Up 15 minutes   80/tcp, 0.0.0.0:80->8000/tcp, :::80->8000/tcp   containers-wordpress-1
+af439eed0e08   mysql:5.7          "docker-entrypoint.s…"   15 minutes ago   Up 15 minutes   3306/tcp, 33060/tcp                             containers-db-1
+_________________________________________________________________________________________________________________________________________________________
 
 Default wordpress docker image listens on port 80. Changed mappings for docker network to listen on 8000 and forward to instead of 80 to 8000.
 
