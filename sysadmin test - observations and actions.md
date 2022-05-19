@@ -15,18 +15,13 @@ To ensure that "interns" do not wreak havoc on systems by gaining access from wr
 	Defaults:<username> !fqdn
 	Defaults:<username> !requiretty
 	<username> ALL=(ALL) NOPASSWD: ALL
-	
-	
 	```
 	
 	or 
-	
 	```bash
 	Defaults:<%groupname> !fqdn
 	Defaults:<%groupname> !requiretty
 	<%groupname> ALL=(ALL) NOPASSWD: ALL
-	
-	
 	```
 
 
