@@ -1,6 +1,6 @@
 ### Password policy.
 
-**Note:** This was not implemented as I'm scared I restrict access from the system. I checked the `/root/.ssh` directory and no contents exist, meaning nobody has a ssh access to the system without a password. 
+**Note:** This was not implemented as I'm scared I restrict access to the system. I checked the `/root/.ssh` directory and no contents exist, meaning nobody has a ssh access to the system without a password. 
 
 To ensure that "interns" do not wreak havoc on systems by gaining access from written down passwords, the following is recommended. 
 
