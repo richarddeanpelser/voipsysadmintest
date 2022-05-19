@@ -29,7 +29,7 @@ To ensure that "interns" do not wreak havoc on systems by gaining access from wr
 	1. Make sure you copy the keys and distribute them to relevant users so that they can use the private keys to establish ssl connections. 
 4. Disable password login
 	1. edit `/etc/ssh/sshd_config` and find the line cotaining `PasswordAuthentication yes` and change it to `PasswordAuthentication no` . If the line starts with a `#`, be sure to uncomment it.
-	2. restart the sshd by running `systemctl restart ssh
+	2. restart the ssh service by running `systemctl restart ssh`
 5. NB: Remember to change the existing root password to prevent access to any current or future applications using the root password, i.e. webmin or cockpit. 
 
 
