@@ -23,5 +23,5 @@ To redeploy the image, run `docker compose up -d` in the directory where the doc
 ### Problems fixed
 1. bash path variable and missing lines from code completion script
 2. apt sources
-3. docker missing and possible outdated packages
+3. docker missing and possibly outdated packages
 4. docker-compose file
