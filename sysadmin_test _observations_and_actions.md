@@ -30,7 +30,7 @@ To ensure that "interns" do not wreak havoc on systems by gaining access from wr
 4. Disable password login
 	1. edit `/etc/ssh/sshd_config` and find the line cotaining `PasswordAuthentication yes` and change it to `PasswordAuthentication no` . If the line starts with a `#`, be sure to uncomment it.
 	2. restart the sshd by running `systemctl restart ssh
-5. NB: Remember to change the existing root password to prevent access to any current of future applications using the root password, i.e. webmin or cockpit. 
+5. NB: Remember to change the existing root password to prevent access to any current or future applications using the root password, i.e. webmin or cockpit. 
 
 
 
